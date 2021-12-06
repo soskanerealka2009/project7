@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+}
+.carousel div img {
+  width: 75px;
+}
+.carousel {
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 40px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+}
+.slick-next {
+  right: 25px !important;
+}
+.slick-prev {
+  left: 15px !important;
+}
+.slick-dots {
+  left: -7px;
+  position: relative !important;
+}
+@media (min-width: 768px) {
+  .carousel div img {
+    width: 200px;
+  }
+  .slick-next {
+  right: 40px !important;
+  }
+  .slick-prev {
+    left: -7px !important;
+  }
+  .slick-dots {
+  left: -25px;
+  position: relative !important;
+}
